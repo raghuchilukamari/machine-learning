@@ -1,0 +1,51 @@
+
+
+
+Scatter plot - Represent 2D data. Arrange data in x,y axis. Each data item is a dot
+
+Bar charts - Represent 2D data.
+              Aggregate data.
+              Helps pool together groups of data into single bar and understand global trends.
+
+Histograms - Represent 1D data.
+              Aggregate data.
+              Special case of Bar chart.
+              counts frequency of 1D data
+
+Pie charts -
+
+In continuous distributions, probability of every outcome is zero.
+
+Density of probability for continuous spaces -
+    For a continuous probability distribution, the y-axis represents a probability density function.
+
+    A density function is just an equation to mathematically represent a continuous distribution.
+    If you're familiar with calculus, the integral of the probability density function is the probability.
+    Taking the integral is the same as calculating the area under the curve.
+
+    It's relatively easy to calculate the area underneath a uniform continuous probability distribution.
+    These distributions look like rectangles, so the area is the base of the rectangle times the height of the rectangle.
+
+Piece-Wise Continuous Probability Distributions
+
+probabilities are never larger than 1 but Densities can be larger than 1
+
+correlation - Knowlegde of one variable tells you about another.
+Causation - confounding variable (between hospital & Death is Sick)
+            without confounding variable you might see positive correlation which is false
+            Like without sick variable correlation between hospital and Death is positive
+            Reverse causation - size of fire cause number of fire fighters to go up.
+
+  Empirical frequency - same as observations, what you actually saw
+
+  Estimators -
+  Maximum likelihood probability (Empirical count)- Good way to guess and underlying probability that might have produced a given dataset
+                                  sum(required type of outcome) / total number outcomes
+
+Estimation problem - Given the data find probability p  (probability of heads)
+                      Given fixed P whats the probability of data
+
+method of adding fake data is called laplacian Estimator
+
+when there is not much data fake it by adding more data points - one for each possible outcome
+Draws closer to 0.5
